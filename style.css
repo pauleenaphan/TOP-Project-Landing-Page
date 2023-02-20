@@ -9,13 +9,13 @@ body{
     padding: 0;
 }
 
+/* Bar one*/
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     gap: 60px;
  
-    
 }
 
 .top-one{
@@ -26,14 +26,16 @@ body{
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
-    
+    margin-left: -150px;
 }
 
 .header-links{
     display: flex;
     gap: 20px;
     font-size: 18px;
+    margin-right: -150px;
 }
 
 a{
@@ -43,12 +45,19 @@ a{
 
 .top-two{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 300px;
     margin-bottom: 80px;
 }
 
 .left-top{
     max-width: 450px;
+}
+
+.right-top img{
+    width: auto;
+    height: auto;
+    max-width: 500px;
 }
 
 .title{
@@ -73,8 +82,8 @@ button{
     margin: 10px 10px 10px 0px;
 }
 
-
-img{
+/* Bar Two */
+.middle img{
     width: auto;
     height: auto;
     max-width: 200px;
@@ -103,7 +112,68 @@ img{
 }
 
 
+/* Bar three */
+.middle-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: #1F2937;
+    background-color: #E5E7Eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    margin: 100px 300px 0px 300px;
+}
+
+.quote-artist{
+    font-size: 24px;
+    text-align: right;
+    margin: 0px 0px 100px 700px;
+    font-weight: bolder;
+}
 
 
 
+/* Bar four */
+.bottom{
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    
+    margin: 100px 500px;
+    padding: 50px;
+    width: 800px;
 
+    justify-content: space-around;
+}
+
+.bot-left{
+    color: white;
+}
+
+.line-one{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.line-two{
+    font-size: 15px;
+}
+
+.bottom-button{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 120px;
+}
+
+/* Bar five */
+.footer{
+    padding: 30px;
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+}
